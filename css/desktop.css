@@ -1,0 +1,72 @@
+@media screen and (min-width: 1500px) {
+	.container {
+		max-width: 1428px;
+	}
+
+	.about-img-blanket-2 {
+		display: none;
+	}
+	.about-img-blanket-3 {
+		display: block;
+	}
+
+	.title {
+		font-size: 70px;
+	}
+
+	.sub-title {
+		font-size: 40px;
+	}
+
+	.text {
+		font-size: 32px;
+	}
+
+	.header-cont {
+		position: relative;
+		background-image: url(../images/background-desktop.png);
+	}
+
+	.header-img-blanket-1 {
+		width: 750px;
+	}
+	.header-img-blanket-2 {
+		width: 750px;
+	}
+	.hero-list {
+		gap: 160px;
+	}
+
+	.about-list img {
+		width: 450px;
+	}
+
+	.about-wrap {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 100%;
+		grid-area: 30px;
+	}
+
+	.footer-cont {
+		background-image: url(../images/footer-desktop.png);
+	}
+
+	.wrap-comparison {
+		text-align: center;
+	}
+
+	.footer-comparison-title {
+		margin-bottom: 30px;
+		width: 100%;
+	}
+
+	.footer-img {
+		width: 500px;
+	}
+
+	.comparison-list-img {
+		gap: 150px;
+	}
+}

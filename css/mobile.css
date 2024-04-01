@@ -1,0 +1,40 @@
+.container {
+	min-width: 320px;
+	max-width: 428px;
+	padding: 0 14px;
+	margin: 0 auto;
+}
+
+.header-img-logo {
+	width: 200px;
+}
+
+.header-img-blanket-2 {
+	display: none;
+}
+
+.img-advantage {
+	width: 100px;
+}
+
+.about-img-blanket-2 {
+	display: none;
+}
+
+.about-img-blanket-3 {
+	display: none;
+}
+
+.header-cont {
+	padding-top: 35px;
+	padding-bottom: 35px;
+	border: none;
+}
+
+.about-cont {
+	margin-top: 75px;
+	margin-bottom: 35px;
+}
+
+@media screen and (min-width: 320px), (max-width: 480) {
+}

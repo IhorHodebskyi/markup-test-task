@@ -1,0 +1,154 @@
+:root {
+	--background-light: #ffffff;
+	--background-blue: #18187c;
+	--color-text-dark: #434455;
+	--color-text-light: #ffffff;
+	--color-text-yellow: #e06513;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: var(--background-light);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding-left: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.5em;
+	letter-spacing: 0.02em;
+}
+
+.sub-title {
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 1.5em;
+	letter-spacing: 0.04em;
+}
+
+.text {
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 1.3em;
+	letter-spacing: 0.02em;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.header-cont {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: var(--background-blue);
+	background-image: url(../images/background-mobile.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	gap: 30px;
+}
+
+.header-title {
+	text-align: center;
+	color: var(--color-text-light);
+	width: 200px;
+}
+
+.hero-cont {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--background-blue);
+	border: none;
+}
+
+.hero-list {
+	color: var(--color-text-light);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	gap: 30px;
+}
+
+.hero-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-cont {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 18px;
+	margin-top: 50px;
+}
+
+.about-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 10px;
+	width: 280px;
+}
+
+.about-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.about-title {
+	color: var(--color-text-yellow);
+}
+
+.footer-cont {
+	background-color: var(--background-blue);
+	background-image: url(../images/footer-mobile.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+}
+
+.wrap {
+	display: none;
+}
+
+.footer-title {
+	text-align: center;
+	color: var(--color-text-light);
+	width: 260px;
+	margin-top: 30px;
+	margin-bottom: 120px;
+}
